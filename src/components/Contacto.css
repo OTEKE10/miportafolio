@@ -1,0 +1,48 @@
+/* Contacto.css */
+.contacto {
+    background-color: #f9c449; /* Fondo de color amarillo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333; /* Color del texto */
+  }
+  
+  .contacto h2 {
+    font-size: 2rem; /* Tamaño del título */
+    margin: 10px 0;
+    color: #ff6600; /* Color de título naranja */
+  }
+  
+  .contacto p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Estilos para el enlace de correo electrónico y número de teléfono */
+  .contacto a {
+    text-decoration: none;
+    color: #007bff; /* Color azul para enlaces */
+    font-weight: bold;
+  }
+  
+  .contacto a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo para el contenedor de enlaces */
+  .contacto a-container {
+    margin: 10px;
+  }
+  
+  /* Estilo para resaltar el correo electrónico y el número de teléfono */
+  .contacto .email {
+    color: #d9534f; /* Color rojo para correo electrónico */
+  }
+  
+  .contacto .telefono {
+    color: #5bc0de; /* Color azul claro para el número de teléfono */
+  }
+  
+  
+  

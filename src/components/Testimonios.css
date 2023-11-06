@@ -1,0 +1,37 @@
+/* Testimonios.css */
+.testimonios-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .testimonio {
+    background-color: #DE8F5F;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .testimonio h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .testimonio p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  /* Estilos para un toque dinámico al hacer hover */
+  .testimonio:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    background-color: #ecd6d6; /* Cambia el color de fondo al hacer hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,26 @@
+/* Navbar.css */
+
+nav {
+    background-color: #333; /* Fondo del navbar */
+    color: white; /* Color del texto */
+  }
+  
+  ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 10px;
+  }
+  
+  a {
+    text-decoration: none; /* Elimina la subraya de los enlaces */
+    color: white; /* Color del texto de los enlaces */
+  }
+  
+  a:hover {
+    color: #61dafb; /* Cambia el color del texto al pasar el mouse por encima */
+  }
+  

@@ -1,0 +1,49 @@
+/* Inicio.css */
+body {
+    background-color: #F4DFB6; /* Cambiar el color de fondo a un tono oscuro o el que prefieras */
+    color: #110f0f; /* Cambiar el color de texto a blanco */
+  }
+  
+  .inicio {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .inicio h1 {
+    font-size: 2rem;
+    color: #007bff; /* Cambiar el color del título a uno llamativo */
+  }
+  
+  .inicio p {
+    font-size: 1.2rem;
+    margin: 20px 0; /* Agregar espacio vertical entre párrafos */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Agregar espacio entre el texto y la imagen */
+  }
+  
+  .github-link {
+    margin-right: 20px; /* Agregar espacio entre el enlace de GitHub y la imagen */
+  }
+  
+  /* Efecto hover para el enlace de GitHub */
+  .github-link:hover {
+    opacity: 0.8; /* Reducir la opacidad al pasar el cursor sobre el enlace */
+  }
+  
+  .image-container img {
+    max-width: 200px;
+    border-radius: 50%;
+    transition: transform 0.3s; /* Agregar una transición suave en la imagen */
+  }
+  
+  /* Efecto de zoom en la imagen al pasar el cursor sobre ella */
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  

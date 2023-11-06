@@ -1,0 +1,48 @@
+/* Proyectos.css */
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre proyectos */
+  }
+  
+  .proyecto {
+    background-color: #F5EEC8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.2s;
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido en la parte superior */
+  }
+  
+  .proyecto h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .proyecto p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .proyecto a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .proyecto a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el efecto hover */
+  .proyecto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-color: #007bff;
+  }
+  
+  

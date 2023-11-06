@@ -1,0 +1,24 @@
+/* RedesSociales.css */
+
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .redes-sociales a {
+    margin: 0 10px; /* Espacio entre cada ícono de red social */
+    text-decoration: none;
+  }
+  
+  .redes-sociales img {
+    width: 40px; /* Ancho de los íconos */
+    height: 40px; /* Alto de los íconos */
+    transition: transform 0.3s; /* Agregar una animación de escala al hacer hover */
+  }
+  
+  .redes-sociales img:hover {
+    transform: scale(1.2); /* Escala al hacer hover */
+  }
+  

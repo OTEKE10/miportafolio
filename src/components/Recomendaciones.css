@@ -1,0 +1,42 @@
+/* Recomendaciones.css */
+.recomendaciones {
+    background-color: #89CFF3;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .recomendaciones h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .recomendacion {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .recomendacion h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .recomendacion p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  /* Estilos para un toque dinámico al hacer hover */
+  .recomendacion:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff9f9; /* Cambia el color de fondo al hacer hover */
+  }
+  
